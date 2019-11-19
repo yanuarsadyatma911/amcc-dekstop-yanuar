@@ -2,14 +2,21 @@
 projek platihan python dan git hub amcc dekstop
 
 cara ngeclone repository
-pertama, buka profile anda, lalu klik your repositories
-kedua, klik new (repository)
-ketiga, isi name repository dan kolom di bawahnya sesuai yang diinginkan
-kempat, pilih public
-kelima, jangan lupa centang (Initialize this repository with a README) 
-klik Add,gitignore :None (pilih python)
-lalu klik CREATE REPOSITORY
-lalu copy SSH repository
-buka git bush lslu paste SSHnya, 
-stelah dicopy tambahkan (git clone) pada SSHnya
-lalu enter.
+1. buka profile anda, lalu klik your repositories
+2. klik new (repository)
+3. isi name repository dan kolom di bawahnya sesuai yang diinginkan
+4. pilih public
+5. jangan lupa centang (Initialize this repository with a README) 
+6. klik Add,gitignore :None (pilih python)
+7. lalu klik CREATE REPOSITORY
+8. lalu copy SSH repository
+9. buka git bush lslu paste SSHnya, 
+10. stelah dicopy tambahkan (git clone) pada SSHnya
+11. lalu enter.
+
+#Bagaimana cara commit dan push
+1. stelah melakukan perubahan, cek git anda dengan perintah 'git status'
+2. lalu simpan perubahan dengan perintah 'git commit -am "pesan commit" '
+3. pastikan dulu sudah tercommit , dengan perintah 'git status'
+4. kirimkan perubahan dengan ngepush  dengan perintah 'git push'
+5. lalu cek pada repository
