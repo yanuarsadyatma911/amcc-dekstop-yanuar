@@ -27,14 +27,17 @@ cara ngeclone repository
 `
 nano main.py
 `
+
 2.jalankan file tersebut dengan cara
 `
 python main.py
 `
+
 3.jalankan file tersebut dengan  cara
 `
 python main.py
 `
+
 4.hasil outputnya harusnya sesuia denganyang ada di isinya, 
 `
 hello word
