@@ -20,3 +20,16 @@ cara ngeclone repository
 3. pastikan dulu sudah tercommit , dengan perintah 'git status'
 4. kirimkan perubahan dengan ngepush  dengan perintah 'git push'
 5. lalu cek pada repository
+
+
+##hello word dengan python
+1. bbuat sebuah file baru dengan nama file main.py varanya berikut ini
+.
+nano main.py
+.
+2.jalankan file tersebut dengan cara
+.
+python main.py
+.
+3.hasil output harusnya
+
