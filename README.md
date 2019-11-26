@@ -23,20 +23,20 @@ cara ngeclone repository
 
 
 ##hello word dengan python
-1. bbuat sebuah file baru dengan nama file main.py varanya berikut ini
-	`
-	nano main.py
-	`
+1.buat sebuah file baru dengan nama file main.py varanya berikut ini
+`
+nano main.py
+`
 2.jalankan file tersebut dengan cara
-	`
-	python main.py
-	`
+`
+python main.py
+`
 3.jalankan file tersebut dengan  cara
-	`
-	python main.py
-	`
+`
+python main.py
+`
 4.hasil outputnya harusnya sesuia denganyang ada di isinya, 
-	`
-	hello word
-	`
+`
+hello word
+`
 	
