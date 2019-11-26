@@ -23,8 +23,15 @@ cara ngeclone repository
 
 
 ##hello word dengan python
+masuk ke direktroy folder repository ini dengan cara:
+```bash
+cd /path/nama direktory
+```
+
+catatan : path disini merupakan nama nama direktory diatas direktory repository null seperti misalnya Documen
+
 1.buat sebuah file baru dengan nama file main.py varanya berikut ini
-`
+```
 nano main.py
 `
 
