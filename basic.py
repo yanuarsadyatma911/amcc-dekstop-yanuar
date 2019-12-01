@@ -1,2 +1,4 @@
 import datetime
-print("waktu dan tanggal hari ini ", datetime.datetime.now())
+mynow = datetime.datetime.now()
+
+print (mynow)
