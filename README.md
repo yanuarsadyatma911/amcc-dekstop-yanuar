@@ -50,3 +50,45 @@ python main.py
 hello word
 `
 	
+## python interpreter
+    1.python interpreter merupakan program yang dibaca & dieksekusi pada sebuah sesi pada command line. Untuk masuk ke pyhon interpreter, caranya sebagai berikut:
+        -Buka CMD (window)/terminal (linux/OS) >> ketikan "python"
+
+
+    ```python
+       Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+       Type "help", "copyright", "credits" or "license" for more information.
+    lalu untuk keluar cmd atau terminal ketikan "ctrl + D"
+
+## menggunakan modul
+    Modul merupakan set program yang sudah disediakan oleh python yang tingal dipakai 
+
+```python
+
+    >>> import datetime
+    >>> datetime.datetime.now()
+    datetime.datetime(2019, 12, 1, 20, 47, 4, 998304)
+sebagai contoh,kode diatas yang digunakan untuk menampilkan tanggal (datetime) saat ini.
+lalu selanjutya kita akan menampilkan karakter alfabet secara random, seperti contoh di bawa
+
+```python
+    >>> import random
+    >>> import string
+    >>> def randomword(length):
+...     letters = string.ascii_lowercase
+...     return ''.join(random.choice(letters) for i in range (length))
+...
+>>> randomword(5)
+'klgzr'
+bisa juga kita menggunakan kode tersebut untuk memilih nama secara random, dengan menginputkan nama nama yang ingin di random dengan list pada kodenya
+
+
+```python
+>>> import random
+    >>> import string
+    def randomname():
+    ...     name = ('david','yanuar','sabil','peby','agung')
+    ...     return ''.join(random.choice(name) for i in range(1))
+    ...
+    >>> randomname()
+    'peby'
