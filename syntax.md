@@ -29,39 +29,39 @@ Disarankan:
 Reserved Words
 Daftar berikut menunjukkan kata kunci Python. Ini adalah kata-kata yang dicadangkan dan Anda tidak dapat menggunakannya sebagai konstan atau variabel atau nama pengenal lainnya. Semua kata kunci Python hanya berisi huruf kecil.
  
-and	exec	not
-assert	finally	or
-break	for	pass
-class	from	print
-continue	global	raise
-def	if	return
-del	import	try
-elif	in	while
-else	is	with
-except	lambda	yield
+and		exec		not
+assert		finally		or
+break		for		pass
+class		from		print
+continue	global		raise
+def		if		return
+del		import		try
+elif		in		while
+else		is		with
+except		lambda		yield
  
 5 Aturan Penulisan Sintaks Python yang Harus dipatuhi
 1. Penulisan Statement Python
 Statement adalah sebuah intruksi atau kalimat perintah yang akan dieksekusi oleh komputer.
 
-Contoh:
-print("Hello World!")
-print("Belajar Python dari Nol")
-nama = “yanuar”
+	Contoh:
+	 print("Hello World!")
+	 print("Belajar Python dari Nol")
+	 nama = “yanuar”
 2. Penulisan String pada Python
 String adalah teks atau kumpulan dari karakter. String dalam pemrograman biasanya ditulis dengan dibungkus menggunakan tanda petik. Bisa menggunakan tanda petik tunggal maupun ganda.
-Contoh:
-judul = "Belajar Pemrograman Python sampai Bisa"
-penulis = ‘yanuar yayan'
+	Contoh:
+	 judul = "Belajar Pemrograman Python sampai Bisa"
+	 penulis = ‘yanuar yayan'
 Atau kita juga bisa menggunakan triple tanda petik.
-Contoh:
-judul = """Belajar Python dengan Cepat"""
-penulis = '''Dekstop Programing'''
+	Contoh:
+	 judul = """Belajar Python dengan Cepat"""
+	 penulis = '''Dekstop Programing'''
 3. Penuilsan Case pada Python
 Sintak Python bersifat case sensitive, artinya teksini dengna TeksIni dibedakan.
-Contoh:
-judul = "Belajar Dasa-dasar Python"
-Judul = "Belajar Membuat Program Python
+	Contoh:
+	 judul = "Belajar Dasa-dasar Python"
+	 Judul = "Belajar Membuat Program Python
 Antara variabel judul dengan Judul itu dibedakan…
 Case Style
 Menurut rekomendasi style guide Google, berikut ini contoh penulisan case yang disarankan:
@@ -86,20 +86,22 @@ if username == 'Dekstoop Programing':
 # blok percabangan for
 for i in range(10):
     print i
+
 5. Cara Penulisan Komentar pada Python
 Komentar merupakan baris kode yang tidak akan dieksekusi. Komentar digunakan untuk memberikan informasi tambahan dan untuk menonaktifkan kode. Ada beberapa cara menulis komentar pada pemrograman Python :
+
 Menggunakan Tanda Pagar (#)
 Cara pertama menggunakan tanda pagar (#)
 Cara ini paling sering digunakan.
-Contohnya:
-# ini adalah komentar
-# Ini juga komentar
+	Contohnya:
+	 # ini adalah komentar
+	 # Ini juga komentar
 
 Menggunakan Tanda Petik
 Selain untuk mengapit teks (string), tanda petik juga dapat digunakan untuk membuat komentar.
-Contoh:
-"Ini adalah komentar dengan tanda petik ganda"
-'Ini juga komentar, tapi dengan tanda petik tunggal'
+	Contoh:
+	 "Ini adalah komentar dengan tanda petik ganda"
+	 'Ini juga komentar, tapi dengan tanda petik tunggal'
 
 Contoh penulisan coding python.
 
@@ -120,24 +122,26 @@ Operators and Expressions
 Apa itu operator?
 Operator merupakan simbol-simbol yang digunakan untuk melakukan operasi tertentu.
 Ada enam jenis operator dalam pemrograman yang wajib diketahui:
+
 1.	Operator Aritmatika
 2.	Operator Pembanding/Relasi
 3.	Operator Penugasan
 4.	Opeartor Logika
 5.	Operator Bitwise
 6.	Operator Ternary
+
 1. Operator Aritmatika
 Opeartor aritmatika termasuk dalam operator yang paling sering digunakan dalam pemrograman.
 Opeartor aritmatika terdiri dari:
-Operator	Simbol
-Penjumlahan	+
-Pengurangan	-
-Perkalian	*
-Pembagian	/
-Sisa Bagi	%
-Pemangkatan	**
+Operator		Simbol
+Penjumlahan		+
+Pengurangan		-
+Perkalian		*
+Pembagian		/
+Sisa Bagi		%
+Pemangkatan		**
 
-Contoh programnya:
+	Contoh programnya:
 # file: operator_aritmatika.py
 
 # Ambil input untuk mengisi nilai
@@ -167,6 +171,7 @@ print "Hasil %d %% %d = %d" % (a,b,c)
 # Operator Pangkat
 c = a ** b
 print "Hasil %d ** %d = %d" % (a,b,c)
+
 2. Operator Penugasan
 Seperti namanya, operator ini digunakan untuk memberikan tugas pada variabel.
 Misalnya:
@@ -174,14 +179,16 @@ umur = 18
 Maka variabel umur telah kita berikan tugas untuk menyimpan angka 18.
 Selain menyimpan atau pengisian nilai, ada juga menjumlahkan, mengurangi, perkalian, pembagian, dsb.
 Selengkapnya bisa dilihat di tabel berikut.
-Operator	Simbol
-Pengisian	=
-Penjumlahan	+=
-Pengurangan	-=
-Perkalian	*=
-Pembagian	/=
-Sisa Bagi	%=
-Pemangkatan	**=
+
+Operator		Simbol
+Pengisian		=
+Penjumlahan		+=
+Pengurangan		-=
+Perkalian		*=
+Pembagian		/=
+Sisa Bagi		%=
+Pemangkatan		**=
+
 Contoh programnya.
 # file: operator_penugasan.py
 
@@ -201,22 +208,26 @@ a += 5
 # Setelah nilai a ditambah 5, coba kita lihat isinya
 print "Nilai setelah ditambah 5:"
 print "a = %d" % a
+
 3. Operator Pembanding
 Operator ini digunakan untuk membandingkan dua buah nilai. Operator ini juga dikenal dengan operator relasi dan sering digunakan untuk membuat sebuah logika atau kondisi.
 Opertor ini terdiri dari:
-Operator	Simbol
-Lebih Besar	>
-Lebih Kecil	<
-Sama Dengan	==
-Tidak Sama dengan	!=
-Lebih Besar Sama dengan	>=
-Lebih Kecil Sama dengan	<=
+
+Operator			Simbol
+Lebih Besar			>
+Lebih Kecil			<
+Sama Dengan			==
+Tidak Sama dengan		!=
+Lebih Besar Sama dengan		>=
+Lebih Kecil Sama dengan		<=
+
 Contohnya :
 a = 4
 b = 2
 c = a < b
 Apakah isi dari variabel c?
 Isinya adalah False, karena nilai 4 lebih kecil dari 2 (4 < 2) adalah salah (False).
+
 # file: operator_pembanding.py
 a = input("masukan nilai a: ")
 b = input("masukan nilai b: ")
@@ -248,10 +259,12 @@ print "Apakah %d != %d: %r" % (a,b,c)
 4. Operator Logika
 Operator logika digunakan untuk membuat operasi logika, seperti logika AND, OR, dan NOT.
 Operator logika terdiri dari:
-Nama	Simbol di Python
-Logika AND	and
-Logika OR	or
-Negasi/kebalikan	not
+
+Nama			Simbol di Python
+Logika AND			and
+Logika OR			or
+Negasi/kebalikan		not
+
 Contoh:
 a = True
 b = False
@@ -267,16 +280,18 @@ print "%r or %r = %r" % (a,b,c)
 # Logika Not
 c = not a
 print "not %r  = %r" % (a,c)
+
 5. Operator Bitwise
 Operator Bitwise adalah operator untuk melakukan operasi berdasarkan bit/biner.
 Operator ini terdiri dari:
-Nama	Simbol
-AND	&
-OR	|
-XOR	^
+
+Nama			Simbol
+AND			&
+OR			|
+XOR			^
 Negasi/kebalikan	~
-Left Shift	<<
-Right Shift	>>
+Left Shift		<<
+Right Shift		>>
 
 Hasil operasi dari operator ini agak sulit dipahami, kalau kita belum paham operasi bilangan biner.
 Mari kita coba pahami dengan contoh sederhana:
@@ -333,11 +348,13 @@ print "a << b = %s" % c
 # Operasi shift right (tukar posisi biner)
 c = a >> b 
 print "a >> b = %s" % c
+
 6. Operator Ternary
 Operator ternary juga dikenal dengan operator kondisi, karena digunakan untuk membuat sebuah ekspresi kondisi seperti percabgan IF/ELSE.
 Operator ternary sebenarnya tidak ada dalam Python, tapi python punya cara lain untuk menggantikan operator ini.
 Pada bahasa pemrograman lain operator ternary menggunakan tanda tanya (?) dan titik dua (:).
 kondisi ? <nilai true> : <nilai false>
+
 Contoh:
 aku = (umur < 10) ? "bocah" : "dewasa"
 Dalam Python bentuknya berbeda, yaitu menggunakann IF/ELSE dalam satu baris.
