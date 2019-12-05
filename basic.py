@@ -1,4 +1,4 @@
 import datetime
 mynow = datetime.datetime.now()
+print ('tanggal hari ini', mynow)
 
-print (mynow)
