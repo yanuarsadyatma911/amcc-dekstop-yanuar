@@ -1,4 +1,3 @@
-#Penjumlahan
-#meminta user memasukkan input
-
-nilai1 = input('Masukkan angka :')
+umur = input("berapa umur kamu? ")
+aku = "bocah" if umur < 10 else "dewasa"
+print aku
