@@ -92,3 +92,16 @@ bisa juga kita menggunakan kode tersebut untuk memilih nama secara random, denga
     ...
     >>> randomname()
     'peby'
+
+# menggunakan variabel
+variabel adalh tempat menyimpan data pada kode program, lalu bagaimana menggunakan  variabel
+
+```python 
+>>> import datetime
+>>> print ('waktu sekarang',datetime.datetime now ()
+waktu sekarang 12-08-2019 21.13
+
+"""menggabukan variabel string dan integer"""
+number = 10
+string = 'yanuar'
+print(number,string)
