@@ -1,3 +1,5 @@
-umur = input("berapa umur kamu? ")
-aku = "bocah" if umur < 10 else "dewasa"
-print aku
+#Penjumlahan
+#meminta user memasukkan input
+
+nilai1 = input('Masukan angka :')
+nilai2 = input('Masukan angka :')
