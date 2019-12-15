@@ -21,7 +21,7 @@ hasil3 = z+z
 print (hasil1,hasil2,hasil3)
 print (type(x),type(y),type(z))
 
-"""LIST"""
+#"""LIST"""
 
 print (list(range(1,20,3)))
 
@@ -49,4 +49,21 @@ print(students.keys())
 username = 'Python'
 print(username.lower())
 
-"""membuat Sebuah"""
+"""Panjang nilai dalam List"""
+length = len(students_grades)
+print (length)
+mean = mysum / length
+print(mean)
+
+"""Tuple"""
+
+
+"""more with list"""
+nilai_murid = [9.5,9.6,7.8,9.4,7.8,9.0]
+nilai_murid.append(7.7) #menambahkan nilai dalam list
+print (nilai_murid)
+
+nilai_murid.index(9.5) #mencari index pada list
+nilai_murid.clear() #menghaapus isi pada list
+print(nilai_murid)
+

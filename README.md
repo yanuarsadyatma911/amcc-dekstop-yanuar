@@ -105,3 +105,12 @@ waktu sekarang 12-08-2019 21.13
 number = 10
 string = 'yanuar'
 print(number,string)
+
+
+
+# tipe data
+dalam python ada berbagai macam type data sperti integer,string,float,
+list,dictionary hingga float, list, dictionary hinga tupple.
+di dalam file baasic.py sudah ada contoh bagaimana menggunakan berbagai macam file tersebut.
+
+#function (fungsi)
