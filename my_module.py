@@ -5,7 +5,8 @@
 # __version__= '0.1'
 import os
 def mulai():
-    pilihan = input('masukan pilihan anda')
+    print('---------------------KONVERSI SUHUH----------------------')
+
     suhuawal = int (input('masukan suhu:'))
     pilihan = str(input('tentukan konfersi anda F,K,R:'))
     konversi(suhuawal,pilihan)
