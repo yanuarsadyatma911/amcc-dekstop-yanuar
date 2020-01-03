@@ -4,7 +4,8 @@
 
 # __version__= '0.1'
 import os
-def main():
+def mulai():
+    pilihan = input('masukan pilihan anda')
     suhuawal = int (input('masukan suhu:'))
     pilihan = str(input('tentukan konfersi anda F,K,R:'))
     konversi(suhuawal,pilihan)
@@ -28,7 +29,7 @@ def konfirmasi():
         ulang = (input('apakah anda ingin mengulang?, (y/t)')) 
         if ulang.title() == 'Y':
             cls()
-            mian()
+            mulai()
         elif ulang.title() =='T':
             break   
 
@@ -36,7 +37,7 @@ def cls():
     os.system('cls'  if os.name == 'nt' else 'clear')
 
 if __name__ == '__main__':
-    main()
+    mulai()
 
 
     
